@@ -1,0 +1,27 @@
+{
+  "name": "@atoy40/stellarsolverjs",
+  "version": "0.0.1",
+  "main": "dist/binding.js",
+  "types": "dist/binding.d.ts",
+  "description": "Wrapper to the stellarsolver library",
+  "author": {
+    "name": "Anthony Hinsinger",
+    "email": "anthony.hinsinger@gmail.com"
+  },
+  "license": "ISC",
+  "gypfile": true,
+  "scripts": {
+    "pretest": "tsc",
+    "prepare": "tsc",
+    "prebuild": "node-gyp configure",
+    "build": "tsc && node-gyp build"
+  },
+  "dependencies": {
+    "bindings": "^1.5.0",
+    "node-addon-api": "^8.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.7.4",
+    "typescript": "^5.6.2"
+  }
+}
