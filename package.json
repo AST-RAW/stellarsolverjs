@@ -1,5 +1,5 @@
 {
-  "name": "@atoy40/stellarsolverjs",
+  "name": "@astraw/stellarsolverjs",
   "version": "0.0.1",
   "main": "dist/binding.js",
   "types": "dist/binding.d.ts",
