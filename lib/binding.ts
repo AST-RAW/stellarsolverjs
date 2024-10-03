@@ -39,14 +39,14 @@ export enum SolverType {
   ONLINEASTROMETRY,
 }
 
-interface Star {
+export interface Star {
   x: number;
   y: number;
   hfr: number;
   flux: number;
 }
 
-interface Solution {
+export interface Solution {
   ra: number;
   dec: number;
   raError: number;
